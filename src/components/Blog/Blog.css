@@ -1,0 +1,54 @@
+/** @format */
+
+.blogs {
+  font-family: "Sora";
+  font-style: normal;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.read-or-hide {
+  color: #4154f1;
+  cursor: pointer;
+}
+
+.blogText h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 70px;
+}
+
+.blogText p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.cardBlog h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.cardBlog {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.testmimonialText {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 70px;
+}
+
+.testmimonialText p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.iconTestmimonial {
+  color: #4154f1;
+}

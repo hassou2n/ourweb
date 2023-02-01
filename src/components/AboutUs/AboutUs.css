@@ -1,0 +1,62 @@
+/** @format */
+
+.aboutUs {
+  font-family: "Sora";
+  font-style: normal;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 750px;
+}
+.aboutUs h5 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 70px;
+}
+
+.readMore {
+  color: #fff;
+  text-decoration: none;
+  background-color: #4154f1;
+  padding: 15px;
+  border-radius: 5px;
+}
+.readMore:hover {
+  color: #fff;
+}
+.r {
+  color: #fff;
+}
+
+.r1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  position: absolute;
+  width: 240px;
+  height: 223px;
+  left: 709px;
+  top: 1238px;
+  background: #220e3f;
+}
+.r1 div {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.r2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  position: absolute;
+  width: 240px;
+  height: 271px;
+  left: 942px;
+  top: 1190px;
+  background: #4154f1;
+}
+.r2 div {
+  font-size: 25px;
+  font-weight: 900;
+}

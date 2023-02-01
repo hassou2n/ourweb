@@ -1,0 +1,24 @@
+/** @format */
+
+h5 {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.footerNavLink li a {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.iconFooter {
+  color: #4154f1;
+  padding-right: 2.5px;
+}

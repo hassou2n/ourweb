@@ -1,0 +1,23 @@
+/** @format */
+
+.contactUs {
+  width: 100%;
+  min-height: 260px;
+  background: #4154f1;
+  color: #ffffff;
+}
+
+.contactUsText {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contactUsButton {
+  color: #000;
+  background-color: #fff;
+  display: inline;
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
