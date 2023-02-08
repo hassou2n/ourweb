@@ -14,10 +14,10 @@ export const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_l1gfwpi",
-        "template_pjsdh7d",
+        "service_o7326s6",
+        "template_dtvrw4a",
         form.current,
-        "JNTumgYcodetCGPJb"
+        "clgW0nbcKYKoXfO0T"
       )
       .then(
         (result) => {
@@ -68,14 +68,14 @@ export const ContactUs = () => {
                   <input
                     className="mb-4"
                     type="number"
-                    name="from_email"
+                    name="phone"
                     placeholder="Your Phone"
                     required
                   />
                   <input
                     className="mb-4"
                     type="text"
-                    name="from_email"
+                    name="service"
                     placeholder="Service"
                     required
                   />
