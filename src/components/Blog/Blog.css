@@ -9,15 +9,14 @@
   justify-content: center;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
 .read-or-hide {
   color: #4154f1;
   cursor: pointer;
-}
-
-.blogText h1 {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 70px;
 }
 
 .blogText p {

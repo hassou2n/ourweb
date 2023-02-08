@@ -9,7 +9,15 @@ export const MobileNavbar = (props) => {
   return (
     <nav className={isOpenClass}>
       <a
-        href="#aboutMe"
+        href="#home"
+        onClick={() => {
+          props.handleMobile(false);
+        }}
+      >
+        Home
+      </a>
+      <a
+        href="#aboutUe"
         onClick={() => {
           props.handleMobile(false);
         }}
@@ -17,28 +25,44 @@ export const MobileNavbar = (props) => {
         About Me
       </a>
       <a
-        href="#projects"
+        href="#services"
         onClick={() => {
           props.handleMobile(false);
         }}
       >
-        Projects
+        Services
       </a>
       <a
-        href="#resume"
+        href="#price"
         onClick={() => {
           props.handleMobile(false);
         }}
       >
-        Resume
+        Price
       </a>
       <a
-        href="#contact"
+        href="#blog"
         onClick={() => {
           props.handleMobile(false);
         }}
       >
-        Contact
+        Blog
+      </a>
+      <a
+        href="#pages"
+        onClick={() => {
+          props.handleMobile(false);
+        }}
+      >
+        Pages
+      </a>
+      <a
+        href="#contactUs"
+        onClick={() => {
+          props.handleMobile(false);
+        }}
+      >
+        Contact Us
       </a>
     </nav>
   );

@@ -4,14 +4,14 @@ import React from "react";
 import "./Blog.css";
 import { ReadMore } from "../Action/ReadMore";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQuoteLeft, faSortDown } from "@fortawesome/fontawesome-free-solid";
+import { faQuoteLeft } from "@fortawesome/fontawesome-free-solid";
 
 export const Blog = () => {
   return (
     <section id="blog" className="blog">
       <div className="container">
         <div className="testmimonialText text-center">
-          <h1>Testmimonial</h1>
+          <div className="title">Testmimonial</div>
           <p>
             Lorem ipsum dolor sit amet consectetur. Vitae libero cras purus naes
             liberit vitultricies sit dignissim pellentesque. Etiam duis eu
@@ -20,15 +20,15 @@ export const Blog = () => {
           </p>
         </div>
         <div>
-          <div class="row container text-align-left">
-            <div class="col-lg-4 col-md-4">
-              <div class="cardTestmimonial">
-                <div class="shadow-sm p-3 mb-5 bg-white ">
+          <div className="row container text-align-left">
+            <div className="col-lg-4 col-md-4">
+              <div className="cardTestmimonial">
+                <div className="shadow-sm p-3 mb-5 bg-white ">
                   <FontAwesomeIcon
                     className="iconTestmimonial"
                     icon={faQuoteLeft}
                   />
-                  <p class="card-text">
+                  <p className="card-text">
                     Lorem ipsum dolor sit amet consectettaerr purus naes liberit
                     vitultricies sit dignipellat dolar mwt amwrt doar amet
                     dolaerLoremm ipsum dolor sit amet consecte
@@ -36,14 +36,14 @@ export const Blog = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4">
-              <div class="cardTestmimonial">
-                <div class="shadow-sm p-3 mb-5 bg-white ">
+            <div className="col-lg-4 col-md-4">
+              <div className="cardTestmimonial">
+                <div className="shadow-sm p-3 mb-5 bg-white ">
                   <FontAwesomeIcon
                     className="iconTestmimonial"
                     icon={faQuoteLeft}
                   />
-                  <p class="card-text">
+                  <p className="card-text">
                     Lorem ipsum dolor sit amet consectettaerr purus naes liberit
                     vitultricies sit dignipellat dolar mwt amwrt doar amet
                     dolaerLoremm ipsum dolor sit amet consecte
@@ -51,14 +51,14 @@ export const Blog = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4">
-              <div class="cardTestmimonial">
-                <div class="shadow-sm p-3 mb-5 bg-white ">
+            <div className="col-lg-4 col-md-4">
+              <div className="cardTestmimonial">
+                <div className="shadow-sm p-3 mb-5 bg-white ">
                   <FontAwesomeIcon
                     className="iconTestmimonial"
                     icon={faQuoteLeft}
                   />
-                  <p class="card-text">
+                  <p className="card-text">
                     Lorem ipsum dolor sit amet consectettaerr purus naes liberit
                     vitultricies sit dignipellat dolar mwt amwrt doar amet
                     dolaerLoremm ipsum dolor sit amet consecte
@@ -72,7 +72,7 @@ export const Blog = () => {
 
       <div className="container">
         <div className="blogText text-center">
-          <h1>Blog</h1>
+          <div className="title">Blog</div>
           <p>
             Lorem ipsum dolor sit amet consectetur. Vitae libero cras purus naes
             liberit vitultricies sit dignissim pellentesque. Etiam duis eu
@@ -81,17 +81,17 @@ export const Blog = () => {
           </p>
         </div>
         <div>
-          <div class="row container text-align-left">
-            <div class="col-lg-4 col-md-4">
-              <div class="cardBlog">
-                <div class=" p-3 mb-5 ">
+          <div className="row container text-align-left">
+            <div className="col-lg-4 col-md-4">
+              <div className="cardBlog">
+                <div className=" p-3 mb-5 ">
                   <img
-                    class="card-img-top"
+                    className="card-img-top"
                     src="/assets/man.png"
-                    alt="Card image cap"
+                    alt="Card imag cap"
                   />
-                  <h5 class="card-title">Lorem ispum dolar sit amet</h5>
-                  <p class="card-text">
+                  <h5 className="card-title">Lorem ispum dolar sit amet</h5>
+                  <p className="card-text">
                     <ReadMore>
                       Lorem ipsum dolor sit amet consectetur. Vitaerr purus naes
                       liberit vitultricies sit dignissim pellat dolar mwt amwrt
@@ -101,16 +101,16 @@ export const Blog = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4">
-              <div class="cardBlog">
-                <div class="p-3 mb-5 ">
+            <div className="col-lg-4 col-md-4">
+              <div className="cardBlog">
+                <div className="p-3 mb-5 ">
                   <img
-                    class="card-img-top"
+                    className="card-img-top"
                     src="/assets/man.png"
-                    alt="Card image cap"
+                    alt="Card imag cap"
                   />
-                  <h5 class="card-title">Lorem ispum dolar sit amet</h5>
-                  <p class="card-text">
+                  <h5 className="card-title">Lorem ispum dolar sit amet</h5>
+                  <p className="card-text">
                     <ReadMore>
                       Lorem ipsum dolor sit amet consectetur. Vitaerr purus naes
                       liberit vitultricies sit dignissim pellat dolar mwt amwrt
@@ -120,16 +120,16 @@ export const Blog = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4">
-              <div class="cardBlog">
-                <div class=" p-3 mb-5 ">
+            <div className="col-lg-4 col-md-4">
+              <div className="cardBlog">
+                <div className=" p-3 mb-5 ">
                   <img
-                    class="card-img-top"
+                    className="card-img-top"
                     src="/assets/man.png"
-                    alt="Card image cap"
+                    alt="Card imag cap"
                   />
-                  <h5 class="card-title">Lorem ispum dolar sit amet</h5>
-                  <p class="card-text">
+                  <h5 className="card-title">Lorem ispum dolar sit amet</h5>
+                  <p className="card-text">
                     <ReadMore>
                       Lorem ipsum dolor sit amet consectetur. Vitaerr purus naes
                       liberit vitultricies sit dignissim pellat dolar mwt amwrt

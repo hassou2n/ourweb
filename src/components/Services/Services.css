@@ -1,5 +1,12 @@
 /** @format */
-
+.services {
+  font-family: "Sora";
+  font-style: normal;
+}
+.title {
+  font-weight: 700;
+  font-size: 45px;
+}
 .iconServices {
   background-color: #4154f1;
   border: 100px;
@@ -7,4 +14,35 @@
   border-radius: 25px;
   height: 25px;
   color: #ffff;
+}
+
+.contactUsS {
+  width: 100%;
+  min-height: 260px;
+  background: #4154f1;
+  color: #ffffff;
+}
+
+.shadow-sm a {
+  text-decoration: none;
+}
+
+.contactUsSText {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contactUsSButton {
+  color: #000;
+  background-color: #fff;
+  display: inline;
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.contactUsSButton:hover {
+  color: #000;
 }

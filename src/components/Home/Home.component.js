@@ -5,7 +5,7 @@ import "./Home.css";
 
 export const Home = () => {
   return (
-    <section id="Home" className="home">
+    <section id="home" className="home">
       <div className="container text-center">
         {/* <img src="./assets/bag.png" alt="img" width="1600px" height="900px"/> */}
         <div className="homeTitle">Lorem ipsum dolor sit amet vitae</div>

@@ -18,8 +18,8 @@ function App() {
         <Home />
         <AboutUs />
         <Services />
-        <ContactUs />
         <Blog />
+        <ContactUs />
         <Footer />
       </Router>
     </div>

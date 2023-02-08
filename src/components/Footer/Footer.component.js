@@ -11,9 +11,9 @@ import {
 export const Footer = () => {
   return (
     <section id="footer">
-      <footer class="footer container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-2 p-3">
+      <footer className="footer container">
+        <div className="row d-flex justify-content-center">
+          <div className="col-2 p-3">
             <a href="">
               <img
                 src="assets/HJLogoFooter.png"
@@ -22,110 +22,110 @@ export const Footer = () => {
               />
             </a>
           </div>
-          <div class="col-4 p-3 ">
+          <div className="col-4 p-3 ">
             <p>Monthly digest of whats new and exciting from us.</p>
           </div>
-          <div class="col-4 p-3">
+          <div className="col-4 p-3">
             <form>
-              <div class="d-flex w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">
+              <div className="d-flex w-100 gap-2">
+                <label for="newsletter1" className="visually-hidden">
                   Email address
                 </label>
                 <input
                   id="newsletter1"
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Email address"
                 />
-                <button class="btn btn-primary" type="button">
+                <button className="btn btn-primary" type="button">
                   Subscribe
                 </button>
               </div>
             </form>
           </div>
         </div>
-        <div class="footerNavLink row d-flex justify-content-center border-top ">
-          <div class="col-lg-3 col-sm-6 p-3">
+        <div className="footerNavLink row d-flex justify-content-center border-top ">
+          <div className="col-lg-3 col-sm-6 p-3">
             <h5>Company</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#home" className="nav-link p-0">
                   Home
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#aboutUs" className="nav-link p-0">
                   About
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#services" className="nav-link p-0">
                   Services
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#price" className="nav-link p-0">
                   Price
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-sm-6 p-3">
+          <div className="col-lg-3 col-sm-6 p-3">
             <h5>Information</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
                   Legal Policy
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
                   Terms and Conditions
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
                   FAQs
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
                   Pages
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-sm-6 p-3">
+          <div className="col-lg-3 col-sm-6 p-3">
             <h5>Follow us</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
                   Twiter
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
                   Instagram
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
                   Whatsup
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
                   Youtube
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col-lg-3 col-sm-6 p-3">
+          <div className="col-lg-3 col-sm-6 p-3">
             <h5>Contact us</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
                 <a href="#" class="nav-link p-0">
                   <FontAwesomeIcon
                     className="iconFooter"
@@ -134,14 +134,14 @@ export const Footer = () => {
                   Lorem ipsum dolor sit amet amrt
                 </a>
               </li>
-              <li class="nav-item mb-2">
+              <li className="nav-item mb-2">
                 <a href="#" class="nav-link p-0">
                   <FontAwesomeIcon className="iconFooter" icon={faPhone} />
                   +9876543210
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
                   <FontAwesomeIcon className="iconFooter" icon={faEnvelope} />
                   info@J&H.com
                 </a>
@@ -149,7 +149,7 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        <div class="d-flex justify-content-center border-top">
+        <div className="d-flex justify-content-center border-top">
           <p>© 2021 Company, Inc. All rights reserved.</p>
         </div>
       </footer>
