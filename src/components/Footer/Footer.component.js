@@ -3,11 +3,11 @@
 import React from "react";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faPhone,
-  faLocationArrow,
-} from "@fortawesome/fontawesome-free-solid";
+// import {
+//   faEnvelope,
+//   faPhone,
+//   faLocationArrow,
+// } from "@fortawesome/fontawesome-free-solid";
 export const Footer = () => {
   return (
     <section id="footer">
@@ -127,22 +127,22 @@ export const Footer = () => {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a href="#" class="nav-link p-0">
-                  <FontAwesomeIcon
+                  {/* <FontAwesomeIcon
                     className="iconFooter"
                     icon={faLocationArrow}
-                  />
+                  /> */}
                   Lorem ipsum dolor sit amet amrt
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" class="nav-link p-0">
-                  <FontAwesomeIcon className="iconFooter" icon={faPhone} />
+                  {/* <FontAwesomeIcon className="iconFooter" icon={faPhone} /> */}
                   +9876543210
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0">
-                  <FontAwesomeIcon className="iconFooter" icon={faEnvelope} />
+                  {/* <FontAwesomeIcon className="iconFooter" icon={faEnvelope} /> */}
                   info@J&H.com
                 </a>
               </li>
