@@ -8,7 +8,7 @@ export const AboutUs = () => {
     <section id="aboutUs" className="aboutUs">
       <div className="row container text-align-left">
         <div className="col-lg-6">
-          <div className="">
+          <div>
             <div className=" p-3 mb-5  ">
               <div className="title">About Us</div>
               <p className="pa card-text">
@@ -32,7 +32,7 @@ export const AboutUs = () => {
                   pellentesque. Etiam duis eu auctor pellentesque. Eu mauriLorem
                   ipsum
                 </p>
-                <a href="#" className="readMore">
+                <a href="#contactUs" className="readMore">
                   Read more
                 </a>
               </p>
@@ -40,7 +40,7 @@ export const AboutUs = () => {
           </div>
         </div>
         <div className="col-lg-6">
-          <div className="">
+          <div>
             <div className="p-3 mb-5 ">
               <img
                 className="card-img-top"

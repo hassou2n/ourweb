@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="#contactUs">
           <img src="assets/HJLogo.png" alt="HJLogo" width="50px" />
         </a>
         <button
@@ -39,9 +39,6 @@ export const Navbar = () => {
         />
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto text-uppercase ">
-            <li class="nav-item">
-              <a className="nav-link" href="#"></a>
-            </li>
             <li class="nav-item">
               <a className="nav-link" href="#home">
                 Home

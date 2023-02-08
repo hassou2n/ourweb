@@ -14,7 +14,7 @@ export const Footer = () => {
       <footer className="footer container">
         <div className="row d-flex justify-content-center">
           <div className="col-2 p-3">
-            <a href="">
+            <a href="#contactUs">
               <img
                 src="assets/HJLogoFooter.png"
                 alt="HJLogoFooter"
@@ -75,22 +75,22 @@ export const Footer = () => {
             <h5>Information</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0">
+                <a href="#contactUs" className="nav-link p-0">
                   Legal Policy
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0">
+                <a href="#contactUs" className="nav-link p-0">
                   Terms and Conditions
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0">
+                <a href="#contactUs" className="nav-link p-0">
                   FAQs
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0">
+                <a href="#contactUs" className="nav-link p-0">
                   Pages
                 </a>
               </li>
@@ -101,22 +101,22 @@ export const Footer = () => {
             <h5>Follow us</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0">
+                <a href="#contactUs" className="nav-link p-0">
                   Twiter
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0">
+                <a href="##contactUs" className="nav-link p-0">
                   Instagram
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0">
+                <a href="#contactUs" className="nav-link p-0">
                   Whatsup
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0">
+                <a href="#contactUs" className="nav-link p-0">
                   Youtube
                 </a>
               </li>
@@ -126,7 +126,7 @@ export const Footer = () => {
             <h5>Contact us</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+                <a href="#contactUs" class="nav-link p-0">
                   {/* <FontAwesomeIcon
                     className="iconFooter"
                     icon={faLocationArrow}
@@ -135,13 +135,13 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" class="nav-link p-0">
+                <a href="#contactUs" class="nav-link p-0">
                   {/* <FontAwesomeIcon className="iconFooter" icon={faPhone} /> */}
                   +9876543210
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0">
+                <a href="#contactUs" className="nav-link p-0">
                   {/* <FontAwesomeIcon className="iconFooter" icon={faEnvelope} /> */}
                   info@J&H.com
                 </a>

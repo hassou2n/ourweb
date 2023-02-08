@@ -1,25 +1,9 @@
 /** @format */
 
-import React, { useState } from "react";
+import React from "react";
 import "./Services.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faDesktop } from "@fortawesome/fontawesome-free-solid";
-
-// const ReadMore = ({ children }) => {
-//   const text = children;
-//   const [isReadMore, setIsReadMore] = useState(true);
-//   const toggleReadMore = () => {
-//     setIsReadMore(!isReadMore);
-//   };
-//   return (
-//     <p className="text">
-//       {isReadMore ? text.slice(0, 100) : text}
-//       <span onClick={toggleReadMore} className="read-or-hide">
-//         {isReadMore ? "...read more" : " show less"}
-//       </span>
-//     </p>
-//   );
-// };
 
 export const Services = () => {
   return (
@@ -45,7 +29,7 @@ export const Services = () => {
                   liberit vitultricies sit dignissim pellamet dolar mwt amwrt
                   doar amet dolaer
                 </p>
-                <a href="#" className="learnMore">
+                <a href="#contactUs" className="learnMore">
                   Learn more
                 </a>
               </div>
@@ -61,7 +45,7 @@ export const Services = () => {
                   liberit vitultricies sit dignissim pellamet dolar mwt amwrt
                   doar amet dolaer
                 </p>
-                <a href="#" className="learnMore">
+                <a href="#contactUs" className="learnMore">
                   Learn more
                 </a>
               </div>
@@ -77,7 +61,7 @@ export const Services = () => {
                   liberit vitultricies sit dignissim pellamet dolar mwt amwrt
                   doar amet dolaer
                 </p>
-                <a href="#" className="learnMore">
+                <a href="#contactUs" className="learnMore">
                   Learn more
                 </a>
               </div>
@@ -93,7 +77,7 @@ export const Services = () => {
                   liberit vitultricies sit dignissim pellamet dolar mwt amwrt
                   doar amet dolaer
                 </p>
-                <a href="#" className="learnMore">
+                <a href="#contactUs" className="learnMore">
                   Learn more
                 </a>
               </div>
