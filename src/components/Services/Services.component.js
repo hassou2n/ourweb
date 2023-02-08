@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import "./Services.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDesktop } from "@fortawesome/fontawesome-free-solid";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faDesktop } from "@fortawesome/fontawesome-free-solid";
 
 // const ReadMore = ({ children }) => {
 //   const text = children;
@@ -38,7 +38,7 @@ export const Services = () => {
           <div className="col-sm-6">
             <div className="container mb-5 ">
               <div className="shadow-sm p-3 mb-5 bg-white rounded">
-                <FontAwesomeIcon className="iconServices" icon={faDesktop} />
+                {/* <FontAwesomeIcon className="iconServices" icon={faDesktop} /> */}
                 <h5 className="card-title">Lorem ispum dolar</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet consectetur. Vitaero cr purus naes
@@ -54,7 +54,7 @@ export const Services = () => {
           <div className="col-sm-6">
             <div className="container mb-5">
               <div className="shadow-sm p-3 mb-5 bg-white rounded">
-                <FontAwesomeIcon className="iconServices" icon={faDesktop} />
+                {/* <FontAwesomeIcon className="iconServices" icon={faDesktop} /> */}
                 <h5 className="card-title">Lorem ispum dolar</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet consectetur. Vitaero cr purus naes
@@ -70,7 +70,7 @@ export const Services = () => {
           <div className="col-sm-6">
             <div className="container mb-5">
               <div className="shadow-sm p-3 mb-5 bg-white rounded">
-                <FontAwesomeIcon className="iconServices" icon={faDesktop} />
+                {/* <FontAwesomeIcon className="iconServices" icon={faDesktop} /> */}
                 <h5 className="card-title">Lorem ispum dolar</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet consectetur. Vitaero cr purus naes
@@ -86,7 +86,7 @@ export const Services = () => {
           <div className="col-sm-6">
             <div className="container mb-5">
               <div className="shadow-sm p-3 mb-5 bg-white rounded">
-                <FontAwesomeIcon className="iconServices" icon={faDesktop} />
+                {/* <FontAwesomeIcon className="iconServices" icon={faDesktop} /> */}
                 <h5 className="card-title">Lorem ispum dolar</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet consectetur. Vitaero cr purus naes
