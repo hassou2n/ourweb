@@ -3,19 +3,19 @@
 .home {
   background: url("/public/assets/bag.png");
   position: absolute;
-   top: 0px;
+  top: 0px;
   width: 100%;
   min-height: 100vh;
   background-repeat: no-repeat;
 }
-.homeTitle{
+.homeTitle {
   color: #fff;
   margin-top: 15%;
   font-size: 60px;
   font-weight: 700;
 }
 
-.homeTitleP{
+.homeTitleP {
   color: #fff;
 }
 
@@ -37,4 +37,4 @@
   margin-left: 5px;
   padding: 10px;
   border-radius: 5px;
-} 
+}

@@ -2,7 +2,10 @@
 
 import React from "react";
 import "./Home.css";
-
+import { AboutUs } from "../AboutUs/AboutUs.component";
+import { Services } from "../Services/Services.component";
+import { Blog } from "../Blog/Blog.component";
+import { Footer } from "../Footer/Footer.component";
 export const Home = () => {
   return (
     <section id="home" className="home">
@@ -19,6 +22,10 @@ export const Home = () => {
           <div>Learn more</div>
         </div>
       </div>
+      <AboutUs />
+      <Services />
+      <Blog />
+      <Footer />
     </section>
   );
 };

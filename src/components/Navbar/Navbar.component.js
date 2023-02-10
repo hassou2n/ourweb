@@ -3,15 +3,16 @@
 import { useState } from "react";
 import "./Navbar.css";
 import { MobileNavbar } from "./MobileNavbar/Mobile.component";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#contactUs">
+        <Link class="navbar-brand" to="/">
           <img src="assets/HJLogo.png" alt="HJLogo" width="50px" />
-        </a>
+        </Link>
         <button
           type="button"
           className={`mobile-open-button ${isMobileNavOpen ? "open" : ""}`}
@@ -40,39 +41,39 @@ export const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto text-uppercase ">
             <li class="nav-item">
-              <a className="nav-link" href="#home">
+              <Link className="nav-link" to="/" smooth>
                 Home
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#aboutUs">
+              <Link className="nav-link" to="/" smooth>
                 About us
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#services">
+              <Link className="nav-link" to="/" smooth>
                 Services
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#price">
+              <Link className="nav-link" to="/" smooth>
                 Price
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#blog">
+              <Link className="nav-link" to="/" smooth>
                 Blog
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#pages">
+              <Link className="nav-link" to="/" smooth>
                 Pages
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a className="ContactUsButton nav-link" href="#contactUs">
+              <Link className="ContactUsButton nav-link" to="/contactUs" smooth>
                 Contact us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

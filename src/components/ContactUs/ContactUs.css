@@ -1,16 +1,8 @@
 /** @format */
 
-.Contact {
-  font-family: "Sora";
-  font-style: normal;
-  padding-top: 15%;
-  padding-bottom: 15%;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
+.conInr {
+  padding-top: 175px;
 }
-
 input,
 textarea {
   width: 100%;
@@ -40,6 +32,7 @@ textarea:focus {
 }
 
 .titleContactUs {
+  padding-top: 15px;
   font-weight: 700;
   font-size: 45px;
 }
