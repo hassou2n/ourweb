@@ -46,32 +46,32 @@ export const Navbar = () => {
               </Link>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#aboutUs" smooth>
+              <a className="nav-link" href="#aboutUs">
                 About us
               </a>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#services" smooth>
+              <a className="nav-link" href="#services">
                 Services
               </a>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#price" smooth>
+              <a className="nav-link" href="#price">
                 Price
               </a>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#blog" smooth>
+              <a className="nav-link" href="#blog">
                 Blog
               </a>
             </li>
             <li class="nav-item">
-              <a className="nav-link" href="#pages" smooth>
+              <a className="nav-link" href="#pages">
                 Pages
               </a>
             </li>
             <li class="nav-item">
-              <Link className="ContactUsButton nav-link" to="/contactUs" smooth>
+              <Link className="ContactUsButton nav-link" to="/contactUs">
                 Contact us
               </Link>
             </li>
