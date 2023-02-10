@@ -2,22 +2,23 @@
 
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "./Mobile.css";
 
 export const MobileNavbar = (props) => {
   const isOpenClass = props.open ? "mobile-nav-bar open" : "mobile-nav-bar";
   return (
     <nav className={isOpenClass}>
-      <a
-        href="#home"
+      <Link
+        href="/"
         onClick={() => {
           props.handleMobile(false);
         }}
       >
         Home
-      </a>
+      </Link>
       <a
-        href="#aboutUe"
+        href="#aboutUs"
         onClick={() => {
           props.handleMobile(false);
         }}
@@ -56,14 +57,14 @@ export const MobileNavbar = (props) => {
       >
         Pages
       </a>
-      <a
-        href="#contactUs"
+      <Link
+        to="/contactUs"
         onClick={() => {
           props.handleMobile(false);
         }}
       >
         Contact Us
-      </a>
+      </Link>
     </nav>
   );
 };

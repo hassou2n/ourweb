@@ -41,34 +41,34 @@ export const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto text-uppercase ">
             <li class="nav-item">
-              <Link className="nav-link" to="/" smooth>
+              <Link className="nav-link" to="/">
                 Home
               </Link>
             </li>
             <li class="nav-item">
-              <Link className="nav-link" to="/" smooth>
+              <a className="nav-link" href="#aboutUs" smooth>
                 About us
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link className="nav-link" to="/" smooth>
+              <a className="nav-link" href="#services" smooth>
                 Services
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link className="nav-link" to="/" smooth>
+              <a className="nav-link" href="#price" smooth>
                 Price
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link className="nav-link" to="/" smooth>
+              <a className="nav-link" href="#blog" smooth>
                 Blog
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link className="nav-link" to="/" smooth>
+              <a className="nav-link" href="#pages" smooth>
                 Pages
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
               <Link className="ContactUsButton nav-link" to="/contactUs" smooth>
