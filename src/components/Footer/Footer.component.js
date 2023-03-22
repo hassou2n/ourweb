@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <section id="footer">
       <footer className="footer container">
-        <div className="row d-flex justify-content-center">
+        <div className="footerRow row d-flex justify-content-center">
           <div className="col-2 p-3">
             <a href="#contactUs">
               <img

@@ -104,13 +104,16 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 40px;
 }
 .testimony-entry .userP {
-  font-family: "Sora";
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 0px;
+  margin-bottom: 0rem;
   color: #000000;
+}
+
+@media screen and (max-width: 991px) {
+  .testimony-entry .userP {
+    font-size: 20px;
+  }
 }

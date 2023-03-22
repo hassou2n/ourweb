@@ -22,3 +22,21 @@ h5 {
   color: #4154f1;
   padding-right: 2.5px;
 }
+
+@media screen and (max-width: 884px) {
+  .footerRow {
+    align-items: center;
+    flex-direction: row;
+  }
+  .footerRow div:nth-child(2) {
+    flex: 0 0 auto;
+    width: 80%;
+  }
+  .footerRow div:nth-child(3) {
+    flex: 0 0 auto;
+    width: 80%;
+  }
+  .footerNavLink div {
+    text-align: center;
+  }
+}

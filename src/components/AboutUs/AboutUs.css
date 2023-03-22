@@ -52,7 +52,16 @@
   position: absolute;
   margin-right: 250px;
 }
+.squareContainer span:nth-child(1) div {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.squareContainer span:nth-child(1) p {
+  font-weight: 600;
+}
 .squareContainer span:nth-child(1) a {
+  font-weight: 600;
   text-decoration: none;
   color: #fff;
 }
@@ -66,20 +75,141 @@
   justify-content: center;
   position: absolute;
 }
+.squareContainer span:nth-child(2) div {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.squareContainer span:nth-child(2) p {
+  font-size: 20px;
+}
 .squareContainer span:nth-child(2) a {
+  font-weight: 600;
   text-decoration: none;
   color: #fff;
 }
-/* 
-@media screen and (max-width: 1440px) {
 
+@media screen and (max-width: 1399px) {
   .squareContainer span:nth-child(1) {
-    height: 223px;
-    width: 255px;
+    height: 175px;
+    width: 200px;
+    right: -50px;
+  }
+  .squareContainer span:nth-child(1) div {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(1) p {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(1) a {
+    font-size: 10px;
   }
   .squareContainer span:nth-child(2) {
-    height: 271px;
-    width: 255px;
+    height: 200px;
+    width: 200px;
+  }
+  .squareContainer span:nth-child(2) div {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(2) p {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(2) a {
+    font-size: 10px;
   }
 }
- */
+@media screen and (max-width: 1199px) {
+  .squareContainer span:nth-child(1) {
+    height: 150px;
+    width: 175px;
+    right: -75px;
+  }
+  .squareContainer span:nth-child(1) div {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(1) p {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(1) a {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(2) {
+    height: 175px;
+    width: 175px;
+  }
+  .squareContainer span:nth-child(2) div {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(2) p {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(2) a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .squareContainer span:nth-child(1) {
+    height: 125px;
+    width: 150px;
+    right: -100px;
+  }
+  .squareContainer span:nth-child(1) div {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(1) p {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(1) a {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(2) {
+    height: 150px;
+    width: 150px;
+  }
+  .squareContainer span:nth-child(2) div {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(2) p {
+    font-size: 10px;
+  }
+  .squareContainer span:nth-child(2) a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .aboutUsRow {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .squareContainer span:nth-child(1) {
+    height: 100px;
+    width: 125px;
+    right: -125px;
+  }
+  .squareContainer span:nth-child(1) div {
+    font-size: 8px;
+  }
+  .squareContainer span:nth-child(1) p {
+    font-size: 8px;
+  }
+  .squareContainer span:nth-child(1) a {
+    font-size: 8px;
+  }
+
+  .squareContainer span:nth-child(2) {
+    height: 125px;
+    width: 125px;
+  }
+  .squareContainer span:nth-child(2) div {
+    font-size: 8px;
+  }
+  .squareContainer span:nth-child(2) p {
+    font-size: 8px;
+  }
+  .squareContainer span:nth-child(2) a {
+    font-size: 8px;
+  }
+}

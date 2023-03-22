@@ -6,7 +6,7 @@ import "./AboutUs.css";
 export const AboutUs = () => {
   return (
     <section id="aboutUs" className="aboutUs">
-      <div className="row container text-align-left">
+      <div className="aboutUsRow row container text-align-left">
         <div className="col-lg-6">
           <div>
             <div className=" p-3 mb-5  ">
