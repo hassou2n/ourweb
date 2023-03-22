@@ -113,7 +113,11 @@
 }
 
 @media screen and (max-width: 991px) {
+  .testimony-entry .author-img {
+    width: 50px;
+    height: 50px;
+  }
   .testimony-entry .userP {
-    font-size: 20px;
+    font-size: 15px;
   }
 }

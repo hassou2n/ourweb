@@ -31,7 +31,7 @@ export const Blog = () => {
                     </p>
                   </div>
                   <div class="author-img mx-1 mb-3"></div>
-                  <span className="user px-3">
+                  <span className="user">
                     <p class="userP">Robert Mountauin</p>
                     <p>Software Engineer</p>
                   </span>
@@ -50,7 +50,7 @@ export const Blog = () => {
                     </p>
                   </div>
                   <div class="author-img mx-1 mb-3"></div>
-                  <span className="user px-3">
+                  <span className="user">
                     <p class="userP">Robert Mountauin</p>
                     <p>Software Engineer</p>
                   </span>
@@ -69,7 +69,7 @@ export const Blog = () => {
                     </p>
                   </div>
                   <div class="author-img mx-1 mb-3"></div>
-                  <span className="user px-3">
+                  <span className="user">
                     <p class="userP">Robert Mountauin</p>
                     <p>Software Engineer</p>
                   </span>
