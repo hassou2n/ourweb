@@ -7,6 +7,10 @@
   font-weight: 700;
   font-size: 45px;
 }
+.servicesText p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .iconServices {
   background-color: #4154f1;
   border: 100px;

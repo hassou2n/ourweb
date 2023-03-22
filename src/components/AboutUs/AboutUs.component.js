@@ -39,7 +39,7 @@ export const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="containerImg col-lg-6">
           <div>
             <div className="p-3 mb-5 ">
               <img
@@ -49,22 +49,28 @@ export const AboutUs = () => {
                 height="619px"
                 width="555px"
               />
-              {/* <div className="r container">
-                <div className="r1 row  align-content-center">
+              <div className="squareContainer">
+                <span>
                   <div>Our Vision</div>
                   <p>
                     Lorem ipsum dolor sit et consectetur. Vitae libero cras
                     purus naes lib
                   </p>
-                </div>
-                <div className="r2 row  align-content-center">
+                  <a href="#" className="learnMore">
+                    Learn more <i class="bi bi-arrow-right"></i>
+                  </a>
+                </span>
+                <span>
                   <div>Our Mission</div>
                   <p>
                     Lorem ipsum dolor sit et consectetur. Vitae libero cras
                     purus naes liberitg vitultricies sit digni
                   </p>
-                </div>
-              </div> */}
+                  <a href="#" className="learnMore">
+                    Learn more <i class="bi bi-arrow-right"></i>
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>

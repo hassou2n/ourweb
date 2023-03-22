@@ -4,12 +4,13 @@ import React from "react";
 import "./Services.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faDesktop } from "@fortawesome/fontawesome-free-solid";
+import { Link } from "react-router-dom";
 
 export const Services = () => {
   return (
     <section id="services">
       <div className="container">
-        <div className="text-center">
+        <div className="servicesText text-center">
           <div className="title">Services</div>
           <p>
             Lorem ipsum dolor sit amet consectetur. Vitae libero cras purus naes
@@ -30,7 +31,7 @@ export const Services = () => {
                   doar amet dolaer
                 </p>
                 <a href="#contactUs" className="learnMore">
-                  Learn more
+                  Learn more <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -46,7 +47,7 @@ export const Services = () => {
                   doar amet dolaer
                 </p>
                 <a href="#contactUs" className="learnMore">
-                  Learn more
+                  Learn more <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -62,7 +63,7 @@ export const Services = () => {
                   doar amet dolaer
                 </p>
                 <a href="#contactUs" className="learnMore">
-                  Learn more
+                  Learn more <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -78,7 +79,7 @@ export const Services = () => {
                   doar amet dolaer
                 </p>
                 <a href="#contactUs" className="learnMore">
-                  Learn more
+                  Learn more <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -88,14 +89,12 @@ export const Services = () => {
       <div className="contactUsS d-flex align-items-center">
         <div className="container text-center ">
           <div>
-            <div className="contactUsSText">
-              Lorem ipsum dolor sit actetur. Vitaebero cras purus naes cies sit
-            </div>
+            <div className="contactUsSText">Lorem ipsum dolor sit actetur.</div>
           </div>
           <div>
-            <a className="contactUsSButton" href="#contactUs">
+            <Link className="contactUsSButton" to="contactUs">
               contact us
-            </a>
+            </Link>
           </div>
         </div>
       </div>

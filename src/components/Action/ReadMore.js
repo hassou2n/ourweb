@@ -12,7 +12,13 @@ export const ReadMore = ({ children }) => {
     <p className="text">
       {isReadMore ? text.slice(0, 100) : text}
       <span onClick={toggleReadMore} className="read-or-hide">
-        {isReadMore ? "...read more" : " show less"}
+        {isReadMore ? (
+          <div>
+            ReadMore <i class="bi bi-arrow-right"></i>
+          </div>
+        ) : (
+          " show less"
+        )}
       </span>
     </p>
   );

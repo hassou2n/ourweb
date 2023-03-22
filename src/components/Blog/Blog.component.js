@@ -3,8 +3,6 @@
 import React from "react";
 import "./Blog.css";
 import { ReadMore } from "../Action/ReadMore";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faQuoteLeft } from "@fortawesome/fontawesome-free-solid";
 
 export const Blog = () => {
   return (
@@ -24,10 +22,7 @@ export const Blog = () => {
             <div className="col-lg-4 col-md-4">
               <div className="cardTestmimonial">
                 <div className="shadow-sm p-3 mb-5 bg-white ">
-                  {/* <FontAwesomeIcon
-                    className="iconTestmimonial"
-                    icon={faQuoteLeft}
-                  /> */}
+                  <i class=" iconTestmimonial fa-solid fa-quote-left fa-2xl"></i>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet consectettaerr purus naes liberit
                     vitultricies sit dignipellat dolar mwt amwrt doar amet
@@ -39,10 +34,7 @@ export const Blog = () => {
             <div className="col-lg-4 col-md-4">
               <div className="cardTestmimonial">
                 <div className="shadow-sm p-3 mb-5 bg-white ">
-                  {/* <FontAwesomeIcon
-                    className="iconTestmimonial"
-                    icon={faQuoteLeft}
-                  /> */}
+                  <i class=" iconTestmimonial fa-solid fa-quote-left fa-2xl"></i>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet consectettaerr purus naes liberit
                     vitultricies sit dignipellat dolar mwt amwrt doar amet
@@ -54,10 +46,7 @@ export const Blog = () => {
             <div className="col-lg-4 col-md-4">
               <div className="cardTestmimonial">
                 <div className="shadow-sm p-3 mb-5 bg-white ">
-                  {/* <FontAwesomeIcon
-                    className="iconTestmimonial"
-                    icon={faQuoteLeft}
-                  /> */}
+                  <i class=" iconTestmimonial fa-solid fa-quote-left fa-2xl"></i>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet consectettaerr purus naes liberit
                     vitultricies sit dignipellat dolar mwt amwrt doar amet

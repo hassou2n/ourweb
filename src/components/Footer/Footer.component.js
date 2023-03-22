@@ -2,12 +2,6 @@
 
 import React from "react";
 import "./Footer.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faEnvelope,
-//   faPhone,
-//   faLocationArrow,
-// } from "@fortawesome/fontawesome-free-solid";
 export const Footer = () => {
   return (
     <section id="footer">
@@ -127,23 +121,17 @@ export const Footer = () => {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a href="#contactUs" class="nav-link p-0">
-                  {/* <FontAwesomeIcon
-                    className="iconFooter"
-                    icon={faLocationArrow}
-                  /> */}
-                  Lorem ipsum dolor sit amet amrt
+                  <i class="footerIcon fa-solid fa-location-dot"></i> Holland
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#contactUs" class="nav-link p-0">
-                  {/* <FontAwesomeIcon className="iconFooter" icon={faPhone} /> */}
-                  +9876543210
+                  <i class="footerIcon fa-solid fa-phone"></i> +9876543210
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#contactUs" className="nav-link p-0">
-                  {/* <FontAwesomeIcon className="iconFooter" icon={faEnvelope} /> */}
-                  info@J&H.com
+                  <i class="footerIcon fa-solid fa-envelope"></i> info@J&H.com
                 </a>
               </li>
             </ul>

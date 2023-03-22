@@ -25,38 +25,61 @@
 .readMore:hover {
   color: #fff;
 }
-.r {
+
+.containerImg {
+  position: relative;
+}
+
+.squareContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #fff;
+  position: absolute;
+  right: 28px;
+}
+
+.squareContainer span:nth-child(1) {
+  background-color: #220e3f;
+  height: 223px;
+  width: 255px;
+  padding: 0px 15px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: absolute;
+  margin-right: 250px;
+}
+.squareContainer span:nth-child(1) a {
+  text-decoration: none;
   color: #fff;
 }
-
-.r1 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  position: absolute;
-  width: 240px;
-  height: 223px;
-  left: 709px;
-  top: 1238px;
-  background: #220e3f;
-}
-.r1 div {
-  font-size: 25px;
-  font-weight: 900;
-}
-
-.r2 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  position: absolute;
-  width: 240px;
+.squareContainer span:nth-child(2) {
+  background-color: #4154f1;
   height: 271px;
-  left: 942px;
-  top: 1190px;
-  background: #4154f1;
+  width: 255px;
+  padding: 0px 15px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
 }
-.r2 div {
-  font-size: 25px;
-  font-weight: 900;
+.squareContainer span:nth-child(2) a {
+  text-decoration: none;
+  color: #fff;
 }
+/* 
+@media screen and (max-width: 1440px) {
+
+  .squareContainer span:nth-child(1) {
+    height: 223px;
+    width: 255px;
+  }
+  .squareContainer span:nth-child(2) {
+    height: 271px;
+    width: 255px;
+  }
+}
+ */
