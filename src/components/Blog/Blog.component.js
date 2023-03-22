@@ -21,37 +21,58 @@ export const Blog = () => {
           <div className="row container text-align-left">
             <div className="col-lg-4 col-md-4">
               <div className="cardTestmimonial">
-                <div className="shadow-sm p-3 mb-5 bg-white ">
-                  <i class=" iconTestmimonial fa-solid fa-quote-left fa-2xl"></i>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet consectettaerr purus naes liberit
-                    vitultricies sit dignipellat dolar mwt amwrt doar amet
-                    dolaerLoremm ipsum dolor sit amet consecte
-                  </p>
+                <div class="testimony-entry">
+                  <div class="feed-bubble shadow-sm p-3">
+                    <i class=" iconTestmimonial fa-solid fa-quote-left fa-2xl"></i>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                  </div>
+                  <div class="author-img mx-1 mb-3"></div>
+                  <span className="user px-3">
+                    <p class="userP">Robert Mountauin</p>
+                    <p>Software Engineer</p>
+                  </span>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="cardTestmimonial">
-                <div className="shadow-sm p-3 mb-5 bg-white ">
-                  <i class=" iconTestmimonial fa-solid fa-quote-left fa-2xl"></i>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet consectettaerr purus naes liberit
-                    vitultricies sit dignipellat dolar mwt amwrt doar amet
-                    dolaerLoremm ipsum dolor sit amet consecte
-                  </p>
+                <div class="testimony-entry">
+                  <div class="feed-bubble shadow-sm p-3">
+                    <i class=" iconTestmimonial fa-solid fa-quote-left fa-2xl"></i>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                  </div>
+                  <div class="author-img mx-1 mb-3"></div>
+                  <span className="user px-3">
+                    <p class="userP">Robert Mountauin</p>
+                    <p>Software Engineer</p>
+                  </span>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="cardTestmimonial">
-                <div className="shadow-sm p-3 mb-5 bg-white ">
-                  <i class=" iconTestmimonial fa-solid fa-quote-left fa-2xl"></i>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet consectettaerr purus naes liberit
-                    vitultricies sit dignipellat dolar mwt amwrt doar amet
-                    dolaerLoremm ipsum dolor sit amet consecte
-                  </p>
+                <div class="testimony-entry">
+                  <div class="feed-bubble shadow-sm p-3">
+                    <i class=" iconTestmimonial fa-solid fa-quote-left fa-2xl"></i>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                  </div>
+                  <div class="author-img mx-1 mb-3"></div>
+                  <span className="user px-3">
+                    <p class="userP">Robert Mountauin</p>
+                    <p>Software Engineer</p>
+                  </span>
                 </div>
               </div>
             </div>

@@ -51,5 +51,66 @@
 }
 
 .iconTestmimonial {
-  color: #4154f1;
+  color: #fff;
+}
+
+.testimony-entry .feed-bubble {
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #4154f1;
+  position: relative;
+  color: #fff;
+}
+
+.testimony-entry .feed-bubble::before {
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #000000 transparent transparent transparent;
+}
+
+.testimony-entry .feed-bubble:after {
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #4154f1 transparent transparent transparent;
+}
+
+.testimony-entry .author-img {
+  background-image: url("/public/assets/man1.png");
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.testimony-entry .user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+.testimony-entry .userP {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 0px;
+  color: #000000;
 }
